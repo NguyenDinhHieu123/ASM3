@@ -1,0 +1,13 @@
+@media (min-width:768px) and (max-width:1024px) {
+    .text-nav {
+        display: none;
+    }
+
+    #nav-bar a:visited,
+    a:link {
+        padding: 20px;
+        margin-right: 1rem;
+    }
+
+
+}
