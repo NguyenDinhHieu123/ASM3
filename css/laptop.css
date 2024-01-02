@@ -57,13 +57,6 @@ ul {
 }
 
 /* nav-bar */
-#nav-bar {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    text-align: center;
-    padding-top: 10px;
-}
 
 #nav-bar .container {
     display: flex;
@@ -71,6 +64,8 @@ ul {
     justify-content: center;
     align-items: center;
     column-gap: 30px;
+    text-align:center;
+    margin-top:10px;
 }
 
 #nav-bar .container a {
@@ -97,17 +92,6 @@ ul {
 
 /* thông tin cá nhân */
 
-.about-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-    justify-items: center;
-    align-items: center;
-    gap: 40px;
-    line-height: 2;
-    margin-top: 40px;
-}
-
 #about .container .section-title {
     margin-bottom: 20px;
 }
@@ -121,7 +105,7 @@ ul {
 }
 
 #personal-info {
-    padding: 0 180px 80px 30px;
+    padding: 30px 80px 50px 30px;
     background-color: #e7f2f8;
     font-size: 18px;
     border-radius: 35px;
@@ -163,7 +147,7 @@ li {
     border: 1px solid #d3d3d3;
     padding: 20px 20px 30px 20px;
     margin-top: 20px;
-    line-height: 2;
+    line-height: 1.7;
 
 }
 
@@ -235,7 +219,10 @@ li {
     margin-right: 10px;
     width: 45px;
 }
-
+/* padding for button */
+.view-button{
+    padding-left:10px;
+}
 /* chứng chỉ */
 
 .img-cc {
@@ -245,14 +232,7 @@ li {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
-.cer-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    column-gap: 50px;
-    row-gap: 30px;
-    margin-top: 20px;
-}
+
 
 .cer-content {
     display: flex;
